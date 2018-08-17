@@ -211,7 +211,7 @@ parameters:
 sudo kubectl create -f pvc.yaml -n heketi
 ```
 pvc.yaml demo如下：
-
+```
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
